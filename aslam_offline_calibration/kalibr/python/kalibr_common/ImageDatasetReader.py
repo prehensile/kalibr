@@ -1,5 +1,5 @@
-import cv_bridge
 import cv2
+import cv_bridge
 import rosbag
 import os
 import numpy as np

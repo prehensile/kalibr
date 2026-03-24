@@ -2,10 +2,10 @@
 import rospy
 from std_msgs.msg import String
 from sensor_msgs.msg import Image, CompressedImage
+import cv2
 from cv_bridge import CvBridge, CvBridgeError
 import message_filters
 
-import cv2
 import sm
 import aslam_cv as acv
 import aslam_cv_backend as acvb
